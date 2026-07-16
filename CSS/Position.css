@@ -1,0 +1,18 @@
+form{
+    margin:0.3cm 0.2cm 0.5cm 0.1cm;
+    border-style: groove;
+    border-width: 0.6cm;
+    border-color: aqua antiquewhite yellow blueviolet;
+    border-radius: 20px 80px 0px 50px;
+    padding:0.6cm 0.2cm 0.5cm 0.8cm;
+    
+}
+input{
+    position: static;
+    right: 2cm;
+}
+#no{
+    position: sticky;
+    right: 5cm;
+    top: 2cm;
+}

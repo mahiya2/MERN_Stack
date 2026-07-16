@@ -1,0 +1,41 @@
+body{
+    font-family:cursive;
+}
+p{
+    font-family:sans-serif;
+}
+.data{
+    font-size: x-large;
+}
+#but{
+    font-size: x-large;
+}
+#h1{
+    color: blue;
+}
+b{
+    color: blueviolet;
+}
+table,th,td
+{
+    border-style: solid;
+}
+tr td{
+ color: rgb(192, 118, 28);
+}
+ul{
+    font-style: oblique;
+    font-weight: lighter;
+    background-color: bisque;
+    text-align:justify;
+    width:fit-content;
+    background:linear-gradient(20deg,aqua,bisque,pink,yellow);
+}
+h1{
+    position: sticky;
+    
+}
+.read{
+    position: sticky;
+    top:3cm;
+}
