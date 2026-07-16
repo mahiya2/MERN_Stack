@@ -1,6 +1,46 @@
-image{
-    transition: transform 6s ease-in 2s;
+body{
+    animation: moves 10s linear 1s infinite;
 }
-image:hover{
-    transform:translate(5cm,5cm);
+@keyframes moves{
+0%{
+    background-color: antiquewhite;
+    color: blue;
+}
+20%{
+    background-color: aquamarine;
+    color: chartreuse;
+}
+30%{
+    background-color: blueviolet;
+    color:black;
+}
+80%{
+    background-color: deeppink;
+    color: blue;
+}
+100%{
+    background-color: midnightblue;
+    color: tomato;
+}
+}
+img{
+    animation: place 5s linear infinite;
+}
+
+@keyframes place {
+    0%{
+        transform:translate(0px,0px);
+}
+25%{
+    transform: rotate(200px,0px);
+}
+50%{
+    transform:translate(200px,200px);
+}
+75%{
+    transform: translate(0px,200px);
+}
+100%{
+    transform: translate(0px,0px);
+}
 }
