@@ -1,7 +1,9 @@
 .container{
     display:flex;
     background-color:lightpink;
-    flex-direction: column;
+    height: 200px;
+    flex-direction: row;
+    justify-content:center;
 }
 .box{
     width: 100px;
@@ -10,6 +12,6 @@
     color: rgb(11, 10, 13);
     text-align: center;
     margin: 10px;
-    border-radius: 5px;
-    line-height: 25px;
+    border-radius: 24px;
+    line-height: 100px;
 }
