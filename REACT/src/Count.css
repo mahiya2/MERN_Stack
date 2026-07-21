@@ -1,0 +1,12 @@
+.count{
+    color:blue;
+    
+}
+.counting{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#bg{
+    text-align: center;
+}
