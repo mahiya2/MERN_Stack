@@ -43,9 +43,37 @@ return(
            <option value="React">React</option>
            <option value="HTML">Html</option>
            <option value="CSS">Css</option>
-           </select>
+           </select><br/>
            <button type="submit">SUBMIT</button>
         </form>
+        </div>
+    <div style={{position:"relative",top:"2cm"}}>
+    <table>
+        <tr>
+            <th>Name :</th>
+            <td>{User.name}</td>
+        </tr>
+          <tr>
+            <th>Email:</th>
+            <td>{User.email}</td>
+        </tr>
+          <tr>
+            <th>Password:</th>
+            <td>{User.password}</td>
+        </tr>
+          <tr>
+            <th>Phone :</th>
+            <td>{User.phone}</td>
+        </tr>
+          <tr>
+            <th>Gender :</th>
+            <td>{User.gender}</td>
+        </tr>
+          <tr>
+            <th>SKill:</th>
+            <td>{User.skills}</td>
+        </tr>
+    </table>
     </div>
     </>
     );

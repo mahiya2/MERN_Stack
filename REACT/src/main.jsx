@@ -6,9 +6,12 @@ import Butter from './Butter.jsx'
 import Palak from './Palak.jsx'
 import "./App.css";*/
 //import JSX from './Count.jsx'
-import Forms from './Forms.jsx'
+//import Forms from './Forms.jsx'
+//import Events from './Events.jsx'
+//import Light from './Light.jsx'
+import API from './Api.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Forms/>
+  <API/>
   </StrictMode>,
 )

@@ -16,12 +16,12 @@ function Count()
       <div id="bg">
         <h1 className="count">COUNT : {count}</h1>
           <div className="counting">
-        <button  onClick={
+        <button  onDoubleClick={
             ()=>setCount(count+1)
         }>
             +1
         </button>
-        <button onClick={
+        <button onDoubleClick={
             ()=>setCount(count-1)
         }>
             -1
