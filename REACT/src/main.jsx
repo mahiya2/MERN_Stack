@@ -9,9 +9,10 @@ import "./App.css";*/
 //import Forms from './Forms.jsx'
 //import Events from './Events.jsx'
 //import Light from './Light.jsx'
-import API from './Api.jsx'
+//import API from './Api.jsx'
+import DB from './DB_connect.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <API/>
+  <DB/>
   </StrictMode>,
 )
